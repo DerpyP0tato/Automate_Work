@@ -93,5 +93,7 @@ df2 = df2.dropna(axis=0, how="all")
 print(f"{DC_Count} phone numbers saved")
 print(f"{DNC_Count} phone numbers deleted.")
 
-df2.to_csv("(F) " + file_location, index=False)
-print(f"""File "(F) {file_location}" has been created.""")
+df2.to_csv("(NF) " + file_location, index=False)
+print(f"""File "(NF) {file_location}" has been created.""")
+
+# put dnc in separate sheet
